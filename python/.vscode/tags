@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	../helloutility.py	/^class A:$/;"	kind:class	line:2
+Producer	../hello.py	/^class Producer:$/;"	kind:class	line:4
+Router	../hello.py	/^class Router:$/;"	kind:class	line:37
+Transport	../hello.py	/^class Transport:$/;"	kind:class	line:21
+__init__	../hello.py	/^    def __init__(self, producer_id, transport_id, kind, consumable_rtp_params):$/;"	kind:member	line:5
+__init__	../hello.py	/^    def __init__(self, router_id, room_id):$/;"	kind:member	line:38
+__init__	../hello.py	/^    def __init__(self, transport_id, client_id, peer_id, ice_params, ice_candidates, ice_dtls_params):$/;"	kind:member	line:22
+add_consumer	../hello.py	/^    def add_consumer(self, consumer_id, transport_id):$/;"	kind:member	line:12
+add_consumer	../hello.py	/^    def add_consumer(self, consumer_id, transport_id, producer_id):$/;"	kind:member	line:77
+add_producer	../hello.py	/^    def add_producer(self, producer):$/;"	kind:member	line:58
+add_producer	../hello.py	/^    def add_producer(self, producer: Producer):$/;"	kind:member	line:31
+add_transport	../hello.py	/^    def add_transport(self, transport):$/;"	kind:member	line:45
+convert_dictlist_to_list	../helloutility.py	/^def convert_dictlist_to_list(a_dict_list, key):$/;"	kind:function	line:8
+f	../test.py	/^f = open(".\/test.lua", 'r')$/;"	kind:variable	line:6
+fun	../helloutility.py	/^def fun():$/;"	kind:function	line:5
+get_consumer	../hello.py	/^    def get_consumer(self, transport_id):$/;"	kind:member	line:18
+get_consumer	../hello.py	/^    def get_consumer(self, transport_id, producer_id):$/;"	kind:member	line:83
+get_producer	../hello.py	/^    def get_producer(self, producer_id):$/;"	kind:member	line:66
+get_transport	../hello.py	/^    def get_transport(self, transport_id):$/;"	kind:member	line:55
+get_transports_by_peer	../hello.py	/^    def get_transports_by_peer(self, peer_id):$/;"	kind:member	line:69
+get_transports_not_in_client_ids	../hello.py	/^    def get_transports_not_in_client_ids(self, client_ids: list):$/;"	kind:member	line:72
+hello.py	../hello.py	1;"	kind:file	line:1
+helloutility.py	../helloutility.py	1;"	kind:file	line:1
+json	../hello.py	/^import json$/;"	kind:namespace	line:2
+keys	../test.py	/^keys = ["6668002", "{}" ]$/;"	kind:variable	line:8
+r	../test.py	/^r =  redis.Redis("172.16.179.120", 6379, 0, password="KedaRedis16")$/;"	kind:variable	line:5
+redis	../test.py	/^import redis$/;"	kind:namespace	line:2
+remove_consumer	../hello.py	/^    def remove_consumer(self, consumer_id, transport_id, producer_id):$/;"	kind:member	line:80
+remove_consumer	../hello.py	/^    def remove_consumer(self, transport_id):$/;"	kind:member	line:15
+remove_producer	../hello.py	/^    def remove_producer(self, producer_id):$/;"	kind:member	line:34
+remove_producer	../hello.py	/^    def remove_producer(self, producer_id):$/;"	kind:member	line:62
+remove_transport	../hello.py	/^    def remove_transport(self, transport_id):$/;"	kind:member	line:49
+rlt	../test.py	/^rlt = r.eval(str, 0, *keys)$/;"	kind:variable	line:9
+router	../hello.py	/^router = Router('1', '1')$/;"	kind:variable	line:87
+str	../test.py	/^str = f.read()$/;"	kind:variable	line:7
+sys	../test.py	/^import sys $/;"	kind:namespace	line:3
+test.py	../test.py	1;"	kind:file	line:1
+transport	../hello.py	/^transport = Transport('1', '2', '3',$/;"	kind:variable	line:94
+valud	../helloutility.py	/^    valud = 3$/;"	kind:variable	line:3

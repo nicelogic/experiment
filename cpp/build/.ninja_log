@@ -1,0 +1,11 @@
+# ninja log v5
+935	1071	1608261479528685609	standard/main	801465d961afa80d
+492	666	1607181566030593089	standard/standard_temple	5e68375b7d3dbee4
+2	954	1608101771697313078	standard/CMakeFiles/smart-point-test.dir/c++11/smart-point.cpp.o	5f1a19620c429939
+3	934	1608261479380487383	standard/CMakeFiles/main.dir/main.cpp.o	855805fb1af634d5
+0	490	1607181565851981043	standard/CMakeFiles/standard_temple.dir/main.cpp.o	8027fba107e8211a
+954	1050	1608101771798534522	standard/smart-point-test	f07263d2236b50ee
+450	540	1607262413223022503	standard/class-test	9da4452547c77fca
+15	739	1608098742068454579	standard/CMakeFiles/lambda-test.dir/c++11/lambda.cpp.o	bb0ad9cb0033f6d6
+740	856	1608098742205223000	standard/lambda-test	9195b29d80d50e2
+3	450	1607262413130847699	standard/CMakeFiles/class-test.dir/class/class.cpp.o	1db6fca97b6f2397
