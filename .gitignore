@@ -1,3 +1,7 @@
+#build directory
+cpp/build
+cpp/boost/*/build
+
 # Prerequisites
 *.d
 
