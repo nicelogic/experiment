@@ -6,4 +6,5 @@ add_subdirectory(standard/point)
 add_subdirectory(standard)
 add_subdirectory(work/product_test)
 add_subdirectory(boost)
+add_subdirectory(google-test)
 

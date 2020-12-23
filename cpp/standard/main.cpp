@@ -28,7 +28,6 @@ int main()
     Cfoo c;
     A* a = new  Cfoo();
     cout << typeid(*a).name() << endl;
-    type_info
 
     return 0;
 }
