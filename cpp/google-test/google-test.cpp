@@ -1,9 +1,7 @@
 
 #include <iostream>
 
-#include "this/package/foo.h"
-
-#include "../opencode/googletest/googletest/include/gtest/gtest.h"
+#include "gtest/gtest.h"
 
 namespace my {
 namespace project {
