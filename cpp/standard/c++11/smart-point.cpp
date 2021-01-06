@@ -92,6 +92,46 @@ int main()
         cout << "end" << endl;
         cout << "ts count: " << ts.use_count() << endl;
     }
+    cout << "----" << endl;
+
+    {
+        class A
+        {
+        public:
+            virtual shared_ptr<A> getPival()
+            {
+                return m_pIval;
+            }
+        protected:
+            shared_ptr<A> m_pIval;
+        };
+
+        class B : public A{
+        public:
+            B(shared_ptr<A> a){}
+            B(){}
+            shared_ptr<A> getPival() override
+            {
+                cout << "hi" << endl;
+                cout << "point: " << this << endl;
+                return make_shared<B>(m_pIval);
+            }
+        };
+
+        class C
+        {
+        public:
+
+
+        };
+
+        A a;
+        cout << a.getPival().get() << endl;
+        shared_ptr<A> pa = make_shared<B>();
+        cout << pa.get() << endl;
+        auto c = pa->getPival();
+        cout << "c point:" << c.get() << endl;
+    }
 
     return 0;
 }
