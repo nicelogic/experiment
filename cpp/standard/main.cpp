@@ -1,4 +1,5 @@
 #include <chrono>
+#include <functional>
 #include <iostream>
 #include <list>
 #include <mutex>
@@ -9,25 +10,15 @@
 
 using namespace std;
 
-class A{
-    public:
-    virtual ~A(){};
-};
-class B : public A{};
-class Cfoo : public B{};
-
-void fun(const string &str)
+bool foo()
 {
-    cout << (str + "hi") << endl;
+    return true;
 }
-
 int main()
 {
-
-    fun(string("dafa"));
-    Cfoo c;
-    A* a = new  Cfoo();
-    cout << typeid(*a).name() << endl;
+    auto a = []() -> bool { return true; };
+    function<void()> fun = foo;
+    function<void()> fun2 = a;
 
     return 0;
 }
