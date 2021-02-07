@@ -6,19 +6,18 @@
 #include <sstream>
 #include <thread>
 #include <typeinfo>
+#include <set>
+#include <map>
 #include <vector>
 
 using namespace std;
 
-bool foo()
-{
-    return true;
-}
 int main()
 {
-    auto a = []() -> bool { return true; };
-    function<void()> fun = foo;
-    function<void()> fun2 = a;
+    set<bool> bSets;
+
+    bSets.emplace(true);
+    cout << bSets.size() << endl;
 
     return 0;
 }
