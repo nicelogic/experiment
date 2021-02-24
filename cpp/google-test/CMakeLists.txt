@@ -6,6 +6,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include_directories("../opencode/googletest/googletest/include")
+include_directories("../opencode/googletest/googlemock/include")
 link_directories("../opencode/googletest/build/lib")
 link_libraries("libgtest.a")
 link_libraries("libgtest_main.a")

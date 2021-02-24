@@ -1,6 +1,8 @@
 
 #include "gtest/gtest.h"
+#include "gmock/gmock.h"
 #include <iostream>
+
 
 using namespace std;
 
@@ -17,20 +19,16 @@ TEST(fun, funtest)
 
 //mock class
 
-class SimpleClass
+class Foo
 {
-public:
-    virtual int getIval(const int ival = 0)
-    {
-        return ival;
-    }
-
+protected:
+    virtual void Resume();
 };
 
-class MockSimpleClass
+class MockFoo : public Foo
 {
 public:
-    // MOCK_ME
+     MOCK_METHOD(void, Resume, (), (override));
 };
 
 class BaseTestFixture : public testing::Test
