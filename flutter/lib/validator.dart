@@ -47,7 +47,7 @@ class MyCustomFormState extends State<MyCustomForm> {
         children: <Widget>[
           TextFormField(
             validator: (value) {
-              if (value.isEmpty) {
+              if (value!.isEmpty) {
                 return 'Please enter some text';
               }
               return null;
@@ -59,7 +59,7 @@ class MyCustomFormState extends State<MyCustomForm> {
               onPressed: () {
                 // Validate returns true if the form is valid, or false
                 // otherwise.
-                if (_formKey.currentState.validate()) {
+                if (_formKey.currentState!.validate()) {
                   // If the form is valid, display a Snackbar.
                   Scaffold.of(context)
                       .showSnackBar(SnackBar(content: Text('Processing Data')));

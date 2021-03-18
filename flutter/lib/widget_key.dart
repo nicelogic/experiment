@@ -15,7 +15,7 @@ class Page extends StatelessWidget {
       children: [
         FatherWidget(key: _fatherKey),
         RaisedButton(onPressed: () {
-          _fatherKey.currentState.changeValue('hi');
+          _fatherKey!.currentState!.changeValue('hi');
         }),
         // Text(_fatherKey.currentState.val),
       ],
@@ -24,7 +24,7 @@ class Page extends StatelessWidget {
 }
 
 class FatherWidget extends StatefulWidget {
-  FatherWidget({Key key}) : super(key: key);
+  FatherWidget({Key? key}) : super(key: key);
 
   @override
   _FatherWidgetState createState() => _FatherWidgetState();
