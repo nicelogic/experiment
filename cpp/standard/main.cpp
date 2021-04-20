@@ -13,27 +13,12 @@
 
 using namespace std;
 
-vector<string> getStrings()
-{
-    return {
-        "hi",
-        "a"
-    };
-}
-
-enum EMFoo
-{
-    EM_FOO
-};
-
 int main()
 {
-    for(auto& s : getStrings())
-    {
-        cout << s << endl;
-    }
+    std::chrono::time_point<std::chrono::steady_clock> aTime = std::chrono::steady_clock::now();
+    this_thread::sleep_for(chrono::seconds(1));
+    auto bTime =std::chrono::steady_clock::now(); 
+     std::chrono::duration<double, std::milli> diff = bTime - aTime;
+     cout << diff.count() << endl;
 
-    cout << (typeid(EM_FOO).name()) << endl;
-
-    return 0;
 }
