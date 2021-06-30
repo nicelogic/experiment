@@ -2,23 +2,45 @@
 #include <functional>
 #include <iostream>
 #include <list>
+#include <map>
+#include <memory>
 #include <mutex>
+#include <set>
 #include <sstream>
 #include <thread>
 #include <typeinfo>
-#include <set>
-#include <map>
 #include <vector>
-#include <typeinfo>
 
 using namespace std;
 
+template <typename SearchFunType>
+void debounceTask(const SearchFunType fun)
+{
+    //cout << type_info(fun).name() << endl;
+    thread([&]()
+           { fun(); })
+        .detach();
+}
+class Foo : public std::enable_shared_from_this<Foo>
+{
+public:
+    void _search()
+    {
+        cout << "hi" << endl;
+    }
+    void search()
+    {
+        const auto fun = std::bind(&Foo::_search, shared_from_this());
+        debounceTask(fun);
+    }
+};
+
 int main()
 {
-    std::chrono::time_point<std::chrono::steady_clock> aTime = std::chrono::steady_clock::now();
-    this_thread::sleep_for(chrono::seconds(1));
-    auto bTime =std::chrono::steady_clock::now(); 
-     std::chrono::duration<double, std::milli> diff = bTime - aTime;
-     cout << diff.count() << endl;
+    string name = "abc-123";
+    cout << name.substr(0, name.find("-")) << endl;
 
+
+
+    return 0;
 }
