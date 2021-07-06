@@ -1,523 +1,555 @@
 {
   "effect": [
     {
-      "name": "",
-      "thumbnail_url": "https://niceice.cn/files/.DS_Store.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "DS_Store",
-      "file_format": ".zip"
-    },
-    {
-      "name": "1001NightsUpd",
-      "thumbnail_url": "https://niceice.cn/files/1001NightsUpd-05.01-1.007.086-e3ea66585c.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-e3ea66585c",
-      "file_format": ".zip"
-    },
-    {
       "name": "2_5D_AngelLow",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_AngelLow-05.01-1.005.086-93512bc801.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_AngelLow-05.01-1.005.086-3023ebf8af.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.005.086-93512bc801",
+      "version": "05.01-1.005.086-3023ebf8af.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_BlackCat",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_BlackCat-05.01-1.006.086-30dfce4400.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_BlackCat-05.01-1.006.086-30dfce4400.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-30dfce4400",
+      "version": "05.01-1.006.086-30dfce4400.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_FlowersSunglasses",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_FlowersSunglasses-05.01-1.004.086-c25ba83bbd.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_FlowersSunglasses-05.01-1.004.086-c25ba83bbd.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-c25ba83bbd",
+      "version": "05.01-1.004.086-c25ba83bbd.png",
       "file_format": ".zip"
     },
     {
-      "name": "2_5D_Glasses2",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_Glasses2-05.01-1.003.086-e3df983636.png",
+      "name": "2_5D_Glasses",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_Glasses-05.01-1.004.086-db339c88ca.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.003.086-e3df983636",
+      "version": "05.01-1.004.086-db339c88ca.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_HeartSunglasses",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_HeartSunglasses-05.01-1.004.086-e53ca05552.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_HeartSunglasses-05.01-1.004.086-a1a399a06a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-e53ca05552",
+      "version": "05.01-1.004.086-a1a399a06a.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_Rabbit2",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_Rabbit2-05.01-1.002.086-c9aa0887bc.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_Rabbit2-05.01-1.002.086-c9aa0887bc.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-c9aa0887bc",
+      "version": "05.01-1.002.086-c9aa0887bc.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_SpringCat",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_SpringCat-05.01-1.008.086-2c4393a4fe.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_SpringCat-05.01-1.008.086-2c4393a4fe.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-2c4393a4fe",
+      "version": "05.01-1.008.086-2c4393a4fe.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_WhiteCat",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_WhiteCat-05.01-1.007.086-32032dff12.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_WhiteCat-05.01-1.007.086-32032dff12.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-32032dff12",
+      "version": "05.01-1.007.086-32032dff12.png",
       "file_format": ".zip"
     },
     {
       "name": "2_5D_WhiteDog",
-      "thumbnail_url": "https://niceice.cn/files/2_5D_WhiteDog-05.01-1.005.086-681c12639f.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_WhiteDog-05.01-1.005.086-681c12639f.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.005.086-681c12639f",
+      "version": "05.01-1.005.086-681c12639f.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "AlbertEinstein2Low",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/AlbertEinstein2Low-05.01-1.002.086-4ed85a69fb.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-4ed85a69fb.png",
       "file_format": ".zip"
     },
     {
       "name": "Angel2",
-      "thumbnail_url": "https://niceice.cn/files/Angel2-05.01-1.001.086-703abe3f70.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Angel2-05.01-1.001.086-703abe3f70.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-703abe3f70",
-      "file_format": ".zip"
-    },
-    {
-      "name": "Arrows",
-      "thumbnail_url": "https://niceice.cn/files/Arrows-05.01-1.017.086-2d003201ff.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.017.086-2d003201ff",
+      "version": "05.01-1.001.086-703abe3f70.png",
       "file_format": ".zip"
     },
     {
       "name": "AutumnLeafBand",
-      "thumbnail_url": "https://niceice.cn/files/AutumnLeafBand-05.01-1.009.086-5bcd46f22d.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/AutumnLeafBand-05.01-1.009.086-5bcd46f22d.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-5bcd46f22d",
+      "version": "05.01-1.009.086-5bcd46f22d.png",
       "file_format": ".zip"
     },
     {
       "name": "AvengersTonyStark",
-      "thumbnail_url": "https://niceice.cn/files/AvengersTonyStark-05.01-1.016.086-7f15a5d82a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/AvengersTonyStark-05.01-1.016.086-7f15a5d82a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.016.086-7f15a5d82a",
+      "version": "05.01-1.016.086-7f15a5d82a.png",
       "file_format": ".zip"
     },
     {
       "name": "BWColorGlass",
-      "thumbnail_url": "https://niceice.cn/files/BWColorGlass-05.01-1.009.086-318715e9b9.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BWColorGlass-05.01-1.009.086-318715e9b9.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-318715e9b9",
+      "version": "05.01-1.009.086-318715e9b9.png",
       "file_format": ".zip"
     },
     {
       "name": "BWColorGlass2",
-      "thumbnail_url": "https://niceice.cn/files/BWColorGlass2-05.01-1.001.086-acd240f1d9.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BWColorGlass2-05.01-1.001.086-acd240f1d9.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-acd240f1d9",
+      "version": "05.01-1.001.086-acd240f1d9.png",
       "file_format": ".zip"
     },
     {
       "name": "BabySharkChallenge",
-      "thumbnail_url": "https://niceice.cn/files/BabySharkChallenge-05.01-1.007.086-5c535177af.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BabySharkChallenge-05.01-1.007.086-5c535177af.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-5c535177af",
+      "version": "05.01-1.007.086-5c535177af.png",
       "file_format": ".zip"
     },
     {
       "name": "BeardFlowers",
-      "thumbnail_url": "https://niceice.cn/files/BeardFlowers-05.01-1.004.086-2fc0aac174.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BeardFlowers-05.01-1.004.086-2fc0aac174.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-2fc0aac174",
-      "file_format": ".zip"
-    },
-    {
-      "name": "Beauty2Lut",
-      "thumbnail_url": "https://niceice.cn/files/Beauty2Lut-05.01-1.007.086-421ae68524.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-421ae68524",
+      "version": "05.01-1.004.086-2fc0aac174.png",
       "file_format": ".zip"
     },
     {
       "name": "BeautyBokeh3Low",
-      "thumbnail_url": "https://niceice.cn/files/BeautyBokeh3Low-05.01-1.006.086-2641c36ab8.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BeautyBokeh3Low-05.01-1.006.086-2641c36ab8.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-2641c36ab8",
+      "version": "05.01-1.006.086-2641c36ab8.png",
       "file_format": ".zip"
     },
     {
       "name": "BrutalMan",
-      "thumbnail_url": "https://niceice.cn/files/BrutalMan-05.01-1.006.086-09be3b5a36.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BrutalMan-05.01-1.006.086-09be3b5a36.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-09be3b5a36",
+      "version": "05.01-1.006.086-09be3b5a36.png",
       "file_format": ".zip"
     },
     {
       "name": "BurningMan",
-      "thumbnail_url": "https://niceice.cn/files/BurningMan-05.01-1.025.086-ac153c9b0b.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BurningMan-05.01-1.025.086-ac153c9b0b.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.025.086-ac153c9b0b",
+      "version": "05.01-1.025.086-ac153c9b0b.png",
       "file_format": ".zip"
     },
     {
       "name": "BurningMan2018",
-      "thumbnail_url": "https://niceice.cn/files/BurningMan2018-05.01-1.009.086-4834f21a79.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BurningMan2018-05.01-1.009.086-4834f21a79.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-4834f21a79",
+      "version": "05.01-1.009.086-4834f21a79.png",
       "file_format": ".zip"
     },
     {
       "name": "BurningMan2018Fem",
-      "thumbnail_url": "https://niceice.cn/files/BurningMan2018Fem-05.01-1.005.086-96c9322c45.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BurningMan2018Fem-05.01-1.005.086-96c9322c45.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.005.086-96c9322c45",
+      "version": "05.01-1.005.086-96c9322c45.png",
       "file_format": ".zip"
     },
     {
       "name": "Butterflies2",
-      "thumbnail_url": "https://niceice.cn/files/Butterflies2-05.01-1.003.086-5071fa5578.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Butterflies2-05.01-1.003.086-5071fa5578.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.003.086-5071fa5578",
+      "version": "05.01-1.003.086-5071fa5578.png",
       "file_format": ".zip"
     },
     {
       "name": "Carnival",
-      "thumbnail_url": "https://niceice.cn/files/Carnival-05.01-1.010.086-5966cabde8.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Carnival-05.01-1.010.086-5966cabde8.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.010.086-5966cabde8",
+      "version": "05.01-1.010.086-5966cabde8.png",
       "file_format": ".zip"
     },
     {
       "name": "CartoonOctopus",
-      "thumbnail_url": "https://niceice.cn/files/CartoonOctopus-05.01-1.031.086-45334db5f2.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CartoonOctopus-05.01-1.031.086-b09d15761b.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.031.086-45334db5f2",
-      "file_format": ".zip"
-    },
-    {
-      "name": "CatHat",
-      "thumbnail_url": "https://niceice.cn/files/CatHat-05.01-1.009.086-168ec9e472.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-168ec9e472",
+      "version": "05.01-1.031.086-b09d15761b.png",
       "file_format": ".zip"
     },
     {
       "name": "CharlieChaplin",
-      "thumbnail_url": "https://niceice.cn/files/CharlieChaplin-05.01-1.009.086-9e17cd60dc.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CharlieChaplin-05.01-1.009.086-9e17cd60dc.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-9e17cd60dc",
+      "version": "05.01-1.009.086-9e17cd60dc.png",
       "file_format": ".zip"
     },
     {
       "name": "Chef",
-      "thumbnail_url": "https://niceice.cn/files/Chef-05.01-1.011.086-8836aee102.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Chef-05.01-1.011.086-8836aee102.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.011.086-8836aee102",
-      "file_format": ".zip"
-    },
-    {
-      "name": "Cleopatra2",
-      "thumbnail_url": "https://niceice.cn/files/Cleopatra2-05.01-1.010.086-b54099c4be.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.010.086-b54099c4be",
+      "version": "05.01-1.011.086-8836aee102.png",
       "file_format": ".zip"
     },
     {
       "name": "Crown",
-      "thumbnail_url": "https://niceice.cn/files/Crown-05.01-1.014.086-5c39e45a8a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Crown-05.01-1.014.086-5c39e45a8a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.014.086-5c39e45a8a",
+      "version": "05.01-1.014.086-5c39e45a8a.png",
       "file_format": ".zip"
     },
     {
       "name": "CubemapEverest",
-      "thumbnail_url": "https://niceice.cn/files/CubemapEverest-05.01-1.015.086-b2fe27f95f.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CubemapEverest-05.01-1.015.086-b2fe27f95f.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.015.086-b2fe27f95f",
+      "version": "05.01-1.015.086-b2fe27f95f.png",
       "file_format": ".zip"
     },
     {
       "name": "CubemapMoon",
-      "thumbnail_url": "https://niceice.cn/files/CubemapMoon-05.01-1.008.086-ee5fc8dd18.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CubemapMoon-05.01-1.008.086-ee5fc8dd18.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-ee5fc8dd18",
+      "version": "05.01-1.008.086-ee5fc8dd18.png",
       "file_format": ".zip"
     },
     {
       "name": "DeerLight",
-      "thumbnail_url": "https://niceice.cn/files/DeerLight-05.01-1.015.086-4c6b8f9488.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DeerLight-05.01-1.015.086-71f6f0d64a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.015.086-4c6b8f9488",
+      "version": "05.01-1.015.086-71f6f0d64a.png",
       "file_format": ".zip"
     },
     {
       "name": "DeerLight2",
-      "thumbnail_url": "https://niceice.cn/files/DeerLight2-05.01-1.002.086-dea1d20b36.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DeerLight2-05.01-1.002.086-14faa0f3b8.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-dea1d20b36",
-      "file_format": ".zip"
-    },
-    {
-      "name": "Diablo",
-      "thumbnail_url": "https://niceice.cn/files/Diablo-05.01-1.014.086-3b6196c7ef.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.014.086-3b6196c7ef",
+      "version": "05.01-1.002.086-14faa0f3b8.png",
       "file_format": ".zip"
     },
     {
       "name": "DogNewYear",
-      "thumbnail_url": "https://niceice.cn/files/DogNewYear-05.01-1.012.086-654bcfa05a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DogNewYear-05.01-1.012.086-654bcfa05a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.012.086-654bcfa05a",
+      "version": "05.01-1.012.086-654bcfa05a.png",
       "file_format": ".zip"
     },
     {
-      "name": "DreamOfAKnight",
-      "thumbnail_url": "https://niceice.cn/files/DreamOfAKnight-05.01-1.015.086-f9d1b5b7b6.png",
+      "name": "Doggy",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Doggy-05.01-1.001.086-53a1985088.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.015.086-f9d1b5b7b6",
+      "version": "05.01-1.001.086-53a1985088.png",
       "file_format": ".zip"
     },
     {
-      "name": "EnglandEightPieceCap",
-      "thumbnail_url": "https://niceice.cn/files/EnglandEightPieceCap-05.01-1.008.086-99692c742f.png",
+      "name": "Elf",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Elf-05.01-1.004.086-517bb5f210.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-99692c742f",
+      "version": "05.01-1.004.086-517bb5f210.png",
       "file_format": ".zip"
     },
     {
       "name": "Explorer",
-      "thumbnail_url": "https://niceice.cn/files/Explorer-05.01-1.004.086-2c75355df6.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Explorer-05.01-1.004.086-2c75355df6.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-2c75355df6",
-      "file_format": ".zip"
-    },
-    {
-      "name": "FaceWaveAnimation",
-      "thumbnail_url": "https://niceice.cn/files/FaceWaveAnimation-05.01-1.008.086-b08dc7ac4d.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-b08dc7ac4d",
+      "version": "05.01-1.004.086-2c75355df6.png",
       "file_format": ".zip"
     },
     {
       "name": "FashionHistory1920_male",
-      "thumbnail_url": "https://niceice.cn/files/FashionHistory1920_male-05.01-1.014.086-fa99343cef.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1920_male-05.01-1.014.086-fa99343cef.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.014.086-fa99343cef",
+      "version": "05.01-1.014.086-fa99343cef.png",
       "file_format": ".zip"
     },
     {
       "name": "FashionHistory1930",
-      "thumbnail_url": "https://niceice.cn/files/FashionHistory1930-05.01-1.020.086-adfd0debc5.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1930-05.01-1.020.086-adfd0debc5.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.020.086-adfd0debc5",
+      "version": "05.01-1.020.086-adfd0debc5.png",
       "file_format": ".zip"
     },
     {
       "name": "FashionHistory1930_male",
-      "thumbnail_url": "https://niceice.cn/files/FashionHistory1930_male-05.01-1.019.086-4357a97cf2.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1930_male-05.01-1.019.086-4357a97cf2.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.019.086-4357a97cf2",
+      "version": "05.01-1.019.086-4357a97cf2.png",
       "file_format": ".zip"
     },
     {
       "name": "FashionHistory1940_male",
-      "thumbnail_url": "https://niceice.cn/files/FashionHistory1940_male-05.01-1.017.086-761d52f561.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1940_male-05.01-1.017.086-761d52f561.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.017.086-761d52f561",
+      "version": "05.01-1.017.086-761d52f561.png",
       "file_format": ".zip"
     },
     {
       "name": "FlashSuperhero",
-      "thumbnail_url": "https://niceice.cn/files/FlashSuperhero-05.01-1.004.086-af7da5712e.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FlashSuperhero-05.01-1.004.086-af7da5712e.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-af7da5712e",
+      "version": "05.01-1.004.086-af7da5712e.png",
       "file_format": ".zip"
     },
     {
       "name": "FloppyHatSummer",
-      "thumbnail_url": "https://niceice.cn/files/FloppyHatSummer-05.01-1.008.086-d2fe0ebdd5.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FloppyHatSummer-05.01-1.008.086-d2fe0ebdd5.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-d2fe0ebdd5",
+      "version": "05.01-1.008.086-d2fe0ebdd5.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "FlowersSunglasses",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FlowersSunglasses-05.01-1.003.086-7ccbec7b32.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-7ccbec7b32.png",
       "file_format": ".zip"
     },
     {
       "name": "Freckles",
-      "thumbnail_url": "https://niceice.cn/files/Freckles-05.01-1.015.086-172e3d4b4a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Freckles-05.01-1.015.086-172e3d4b4a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.015.086-172e3d4b4a",
+      "version": "05.01-1.015.086-172e3d4b4a.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "GirlLove",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/GirlLove-05.01-1.003.086-a4246d5fe3.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-a4246d5fe3.png",
       "file_format": ".zip"
     },
     {
       "name": "GlassFire",
-      "thumbnail_url": "https://niceice.cn/files/GlassFire-05.01-1.018.086-d532eeb4c8.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/GlassFire-05.01-1.018.086-d532eeb4c8.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.018.086-d532eeb4c8",
+      "version": "05.01-1.018.086-d532eeb4c8.png",
       "file_format": ".zip"
     },
     {
-      "name": "HawaiiHairFlower",
-      "thumbnail_url": "https://niceice.cn/files/HawaiiHairFlower-05.01-1.008.086-b18c694c1e.png",
+      "name": "HWitch",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/HWitch-05.01-1.006.086-3ceb7e53ef.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-b18c694c1e",
+      "version": "05.01-1.006.086-3ceb7e53ef.png",
       "file_format": ".zip"
     },
     {
-      "name": "Instax",
-      "thumbnail_url": "https://niceice.cn/files/Instax-05.01-1.011.086-fca29af125.png",
+      "name": "HWitch2",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/HWitch2-05.01-1.005.086-36c529f32a.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.011.086-fca29af125",
+      "version": "05.01-1.005.086-36c529f32a.png",
       "file_format": ".zip"
     },
     {
-      "name": "JustFace",
-      "thumbnail_url": "https://niceice.cn/files/JustFace-05.01-1.007.086-470cc127a2.png",
+      "name": "Idea",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Idea-05.01-1.019.086-015e520444.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-470cc127a2",
+      "version": "05.01-1.019.086-015e520444.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "JackSparrow",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/JackSparrow-05.01-1.006.086-5af09b1387.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-5af09b1387.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "LemonGirl",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/LemonGirl-05.01-1.002.086-ed37b45664.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-ed37b45664.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Leopard",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Leopard-05.01-1.006.086-63957eae7e.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.006.086-63957eae7e.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "LionKingSimba",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/LionKingSimba-05.01-1.003.086-b8e0692d7f.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.003.086-b8e0692d7f.png",
       "file_format": ".zip"
     },
     {
       "name": "MatrixSunglasses",
-      "thumbnail_url": "https://niceice.cn/files/MatrixSunglasses-05.01-1.007.086-7a20ec1eea.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/MatrixSunglasses-05.01-1.007.086-7a20ec1eea.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.007.086-7a20ec1eea",
+      "version": "05.01-1.007.086-7a20ec1eea.png",
       "file_format": ".zip"
     },
     {
       "name": "MorphingEightPieceCap",
-      "thumbnail_url": "https://niceice.cn/files/MorphingEightPieceCap-05.01-1.011.086-1bc0596e30.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/MorphingEightPieceCap-05.01-1.011.086-1bc0596e30.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.011.086-1bc0596e30",
+      "version": "05.01-1.011.086-1bc0596e30.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "NeonButterfly",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/NeonButterfly-05.01-1.005.086-733d6026f7.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.005.086-733d6026f7.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Olimp",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Olimp-05.01-1.010.086-b4e69d8205.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.010.086-b4e69d8205.png",
       "file_format": ".zip"
     },
     {
       "name": "Oscar",
-      "thumbnail_url": "https://niceice.cn/files/Oscar-05.01-1.005.086-4db7f3588c.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Oscar-05.01-1.005.086-4db7f3588c.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.005.086-4db7f3588c",
+      "version": "05.01-1.005.086-4db7f3588c.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "PineappleGlasses",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/PineappleGlasses-05.01-1.002.086-5ae030621d.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.002.086-5ae030621d.png",
       "file_format": ".zip"
     },
     {
       "name": "Sherlock",
-      "thumbnail_url": "https://niceice.cn/files/Sherlock-05.01-1.002.086-629f6fe0d7.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Sherlock-05.01-1.002.086-629f6fe0d7.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-629f6fe0d7",
-      "file_format": ".zip"
-    },
-    {
-      "name": "Space",
-      "thumbnail_url": "https://niceice.cn/files/Space-05.01-1.002.086-d7babc46c6.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-d7babc46c6",
+      "version": "05.01-1.002.086-629f6fe0d7.png",
       "file_format": ".zip"
     },
     {
       "name": "SpaceAround",
-      "thumbnail_url": "https://niceice.cn/files/SpaceAround-05.01-1.003.086-00541d0442.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/SpaceAround-05.01-1.003.086-00541d0442.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.003.086-00541d0442",
+      "version": "05.01-1.003.086-00541d0442.png",
       "file_format": ".zip"
     },
     {
       "name": "StrangerThingsMen",
-      "thumbnail_url": "https://niceice.cn/files/StrangerThingsMen-05.01-1.001.086-43fd824a75.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/StrangerThingsMen-05.01-1.001.086-43fd824a75.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-43fd824a75",
+      "version": "05.01-1.001.086-43fd824a75.png",
       "file_format": ".zip"
     },
     {
       "name": "TV",
-      "thumbnail_url": "https://niceice.cn/files/TV-05.01-1.019.086-7501f97b8e.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/TV-05.01-1.019.086-7501f97b8e.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.019.086-7501f97b8e",
+      "version": "05.01-1.019.086-7501f97b8e.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Terminator",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Terminator-05.01-1.010.086-2f5834358d.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.010.086-2f5834358d.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "Unicorn2",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Unicorn2-05.01-1.014.086-86d77ee6a6.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.014.086-86d77ee6a6.png",
       "file_format": ".zip"
     },
     {
       "name": "WeatherMoodRain",
-      "thumbnail_url": "https://niceice.cn/files/WeatherMoodRain-05.01-1.006.086-c8dd17485b.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/WeatherMoodRain-05.01-1.006.086-c8dd17485b.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-c8dd17485b",
+      "version": "05.01-1.006.086-c8dd17485b.png",
       "file_format": ".zip"
     },
     {
       "name": "WeatherMoodSunny",
-      "thumbnail_url": "https://niceice.cn/files/WeatherMoodSunny-05.01-1.001.086-02a3baf656.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/WeatherMoodSunny-05.01-1.001.086-02a3baf656.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-02a3baf656",
+      "version": "05.01-1.001.086-02a3baf656.png",
       "file_format": ".zip"
     },
     {
-      "name": "fx_Butterflies_b1",
-      "thumbnail_url": "https://niceice.cn/files/fx_Butterflies_b1-05.01-1.022.086-ac5eb5bc49.png",
+      "name": "fx_Butterflies_beautify",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/fx_Butterflies_beautify-05.01-1.007.086-274f546adf.png.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.022.086-ac5eb5bc49",
+      "version": "05.01-1.007.086-274f546adf.png",
+      "file_format": ".zip"
+    },
+    {
+      "name": "ironman",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/ironman-05.01-1.025.086-3379be3abc.png.png",
+      "remote_dir": "mobile/media/banuba/effect",
+      "local_dir": "banuba/effect",
+      "version": "05.01-1.025.086-3379be3abc.png",
       "file_format": ".zip"
     }
   ]

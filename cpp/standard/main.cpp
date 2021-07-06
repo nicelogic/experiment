@@ -38,7 +38,7 @@ public:
 int main()
 {
     string name = "abc-123";
-    cout << name.substr(0, name.find("-")) << endl;
+    cout << name.substr(name.find("-")) << endl;
 
 
 

@@ -62,3 +62,4 @@ fs.readdir(fileDir, function (err, files) {
 	console.log(resourceJson);
 
 });
+
