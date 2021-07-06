@@ -18,12 +18,15 @@ fs.readdir(fileDir, function (err, files) {
 	resource['effect'] = [];
 
 	files.forEach((fileName) => {
-		if (fileName.indexOf('.zip') == -1) {
+		if (fileName.indexOf('.zip') == -1
+		&& fileName.indexOf('.json') == -1
+		) {
 			console.log(fileName);
 			let item = {}
 			const itemName = fileName.substr(0, fileName.indexOf('-'));
-			const itemThumbnailUrl = 'https://app.dev.glip.net/assets/mobile/media/banuba/effect/' + fileName + '.png';
-			const itemVersion  = fileName.substr(itemName.length + 1);
+			const itemThumbnailUrl = 'https://app.dev.glip.net/assets/mobile/media/banuba/effect/' + fileName;
+			let itemVersion  = fileName.substr(itemName.length + 1);
+			itemVersion = itemVersion.replace(".png", "");
 			item['name'] = itemName;
 			item['thumbnail_url'] = itemThumbnailUrl;
 			item['remote_dir'] = 'mobile/media/banuba/effect';
@@ -59,6 +62,11 @@ fs.readdir(fileDir, function (err, files) {
 	const resourceJson = JSON.stringify(resource, null, 2);
 	fs.writeFileSync('resource.json', resourceJson);
 	shellJs.cp('-f', './resource.json', fileDir);
+	const niceFileDir = '/Users/bryan.wu/niceice/service/frontend/files/files';
+	const pubFileDir = '/Users/bryan.wu/work_studio/public-assets/src/default/develop/mobile/media/banuba/effect';
+	shellJs.cp('-f', './resource.json', fileDir);
+	shellJs.cp('-f', './resource.json', niceFileDir);
+	shellJs.cp('-f', './resource.json', pubFileDir);
 	console.log(resourceJson);
 
 });
