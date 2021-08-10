@@ -25,14 +25,6 @@
       "file_format": ".zip"
     },
     {
-      "name": "2_5D_Glasses",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_Glasses-05.01-1.004.086-db339c88ca.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-db339c88ca",
-      "file_format": ".zip"
-    },
-    {
       "name": "2_5D_HeartSunglasses",
       "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/2_5D_HeartSunglasses-05.01-1.004.086-a1a399a06a.png",
       "remote_dir": "mobile/media/banuba/effect",
@@ -82,10 +74,10 @@
     },
     {
       "name": "Angel2",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Angel2-05.01-1.001.086-703abe3f70.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Angel2-05.01-1.001.086-703abe3f71.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-703abe3f70",
+      "version": "05.01-1.001.086-703abe3f71",
       "file_format": ".zip"
     },
     {
@@ -98,10 +90,10 @@
     },
     {
       "name": "AvengersTonyStark",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/AvengersTonyStark-05.01-1.016.086-7f15a5d82a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/AvengersTonyStark-05.01-1.016.086-7f15a5d82b.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.016.086-7f15a5d82a",
+      "version": "05.01-1.016.086-7f15a5d82b",
       "file_format": ".zip"
     },
     {
@@ -134,14 +126,6 @@
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
       "version": "05.01-1.004.086-2fc0aac174",
-      "file_format": ".zip"
-    },
-    {
-      "name": "BeautyBokeh3Low",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/BeautyBokeh3Low-05.01-1.006.086-2641c36ab8.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-2641c36ab8",
       "file_format": ".zip"
     },
     {
@@ -202,10 +186,10 @@
     },
     {
       "name": "CharlieChaplin",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CharlieChaplin-05.01-1.009.086-9e17cd60dc.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CharlieChaplin-05.01-1.009.086-9e17cd60dd.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.009.086-9e17cd60dc",
+      "version": "05.01-1.009.086-9e17cd60dd",
       "file_format": ".zip"
     },
     {
@@ -218,26 +202,18 @@
     },
     {
       "name": "Crown",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Crown-05.01-1.014.086-5c39e45a8a.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Crown-05.01-1.014.086-5c39e45a8b.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.014.086-5c39e45a8a",
+      "version": "05.01-1.014.086-5c39e45a8b",
       "file_format": ".zip"
     },
     {
       "name": "CubemapEverest",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CubemapEverest-05.01-1.015.086-b2fe27f95f.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CubemapEverest-05.01-1.015.086-b2fe27f95g.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.015.086-b2fe27f95f",
-      "file_format": ".zip"
-    },
-    {
-      "name": "CubemapMoon",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/CubemapMoon-05.01-1.008.086-ee5fc8dd18.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.008.086-ee5fc8dd18",
+      "version": "05.01-1.015.086-b2fe27f95g",
       "file_format": ".zip"
     },
     {
@@ -250,18 +226,10 @@
     },
     {
       "name": "DeerLight2",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DeerLight2-05.01-1.002.086-14faa0f3b8.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DeerLight2-05.01-1.002.086-dea1d20b36.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-14faa0f3b8",
-      "file_format": ".zip"
-    },
-    {
-      "name": "DogNewYear",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/DogNewYear-05.01-1.012.086-654bcfa05a.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.012.086-654bcfa05a",
+      "version": "05.01-1.002.086-dea1d20b36",
       "file_format": ".zip"
     },
     {
@@ -274,10 +242,10 @@
     },
     {
       "name": "Elf",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Elf-05.01-1.004.086-517bb5f210.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Elf-05.01-1.004.086-517bb5f211.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.004.086-517bb5f210",
+      "version": "05.01-1.004.086-517bb5f211",
       "file_format": ".zip"
     },
     {
@@ -298,10 +266,10 @@
     },
     {
       "name": "FashionHistory1930",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1930-05.01-1.020.086-adfd0debc5.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FashionHistory1930-05.01-1.020.086-adfd0debc6.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.020.086-adfd0debc5",
+      "version": "05.01-1.020.086-adfd0debc6",
       "file_format": ".zip"
     },
     {
@@ -337,14 +305,6 @@
       "file_format": ".zip"
     },
     {
-      "name": "FlowersSunglasses",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/FlowersSunglasses-05.01-1.003.086-7ccbec7b32.png",
-      "remote_dir": "mobile/media/banuba/effect",
-      "local_dir": "banuba/effect",
-      "version": "05.01-1.003.086-7ccbec7b32",
-      "file_format": ".zip"
-    },
-    {
       "name": "Freckles",
       "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/Freckles-05.01-1.015.086-172e3d4b4a.png",
       "remote_dir": "mobile/media/banuba/effect",
@@ -362,18 +322,18 @@
     },
     {
       "name": "GlassFire",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/GlassFire-05.01-1.018.086-d532eeb4c8.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/GlassFire-05.01-1.018.086-d532eeb4c9.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.018.086-d532eeb4c8",
+      "version": "05.01-1.018.086-d532eeb4c9",
       "file_format": ".zip"
     },
     {
       "name": "HWitch",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/HWitch-05.01-1.006.086-3ceb7e53ef.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/HWitch-05.01-1.006.086-3ceb7e53eg.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-3ceb7e53ef",
+      "version": "05.01-1.006.086-3ceb7e53eg",
       "file_format": ".zip"
     },
     {
@@ -394,10 +354,10 @@
     },
     {
       "name": "JackSparrow",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/JackSparrow-05.01-1.006.086-5af09b1387.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/JackSparrow-05.01-1.006.086-5af09b1388.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.006.086-5af09b1387",
+      "version": "05.01-1.006.086-5af09b1388",
       "file_format": ".zip"
     },
     {
@@ -442,10 +402,10 @@
     },
     {
       "name": "NeonButterfly",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/NeonButterfly-05.01-1.005.086-733d6026f7.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/NeonButterfly-05.01-1.005.086-733d6026f8.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.005.086-733d6026f7",
+      "version": "05.01-1.005.086-733d6026f8",
       "file_format": ".zip"
     },
     {
@@ -466,10 +426,10 @@
     },
     {
       "name": "PineappleGlasses",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/PineappleGlasses-05.01-1.002.086-5ae030621d.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/PineappleGlasses-05.01-1.002.086-5ae030621e.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.002.086-5ae030621d",
+      "version": "05.01-1.002.086-5ae030621e",
       "file_format": ".zip"
     },
     {
@@ -482,10 +442,10 @@
     },
     {
       "name": "SpaceAround",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/SpaceAround-05.01-1.003.086-00541d0442.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/SpaceAround-05.01-1.003.086-00541d0443.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.003.086-00541d0442",
+      "version": "05.01-1.003.086-00541d0443",
       "file_format": ".zip"
     },
     {
@@ -530,10 +490,10 @@
     },
     {
       "name": "WeatherMoodSunny",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/WeatherMoodSunny-05.01-1.001.086-02a3baf656.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/WeatherMoodSunny-05.01-1.001.086-02a3baf657.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.001.086-02a3baf656",
+      "version": "05.01-1.001.086-02a3baf657",
       "file_format": ".zip"
     },
     {
@@ -546,10 +506,10 @@
     },
     {
       "name": "ironman",
-      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/ironman-05.01-1.025.086-3379be3abc.png",
+      "thumbnail_url": "https://app.dev.glip.net/assets/mobile/media/banuba/effect/ironman-05.01-1.025.086-3379be3abd.png",
       "remote_dir": "mobile/media/banuba/effect",
       "local_dir": "banuba/effect",
-      "version": "05.01-1.025.086-3379be3abc",
+      "version": "05.01-1.025.086-3379be3abd",
       "file_format": ".zip"
     }
   ]

@@ -7,15 +7,12 @@ let fs = require('fs')
 let AdmZip = require('adm-zip');
 let shellJs = require('shelljs');
 
-const fileDir = '/Users/bryan.wu/Downloads/buildbanubaresource/effect';
+const fileDir = '/Users/bryan.wu/Downloads/banuba-upgrade/fixed_landscape_07.30';
 
 fs.readdir(fileDir, function (err, files) {
 	if (err) {
 		return console.log('目录不存在');
 	}
-	let resource = {};
-	resource['effect'] = [];
-
 	files.forEach((fileName) => {
 		if (fileName.indexOf('.zip') == -1) {
 			console.log(fileName);

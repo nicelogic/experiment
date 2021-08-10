@@ -1,64 +1,102 @@
+import { makeExecutableSchema } from '@graphql-tools/schema';
+import { ApolloServerPluginLandingPageGraphQLPlayground } from 'apollo-server-core';
+import { ApolloServer } from 'apollo-server-express';
+import express from 'express';
+import { execute, subscribe } from 'graphql';
+import { PubSub } from 'graphql-subscriptions';
+import { createServer } from 'http';
+import { SubscriptionServer } from 'subscriptions-transport-ws';
 
-// import UrlParse from 'url-parse';
-// const urlParser = new UrlParse(window.location.href, true);
+const pubsub = new PubSub();
 
-let fs = require('fs')
-let AdmZip = require('adm-zip');
-let shellJs = require('shelljs');
+// The DB
+const messages = [];
 
-const fileDir = '/Users/bryan.wu/Downloads/buildbanubaresource/effect';
+const typeDefs = `
+type Query {
+  messages: [String!]!
+}
+type Mutation {
+  addMessage(message: String!): [String!]!
+}
+type Subscription {
+  newMessage: String!
+}
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+`;
 
-fs.readdir(fileDir, function (err, files) {
-	if (err) {
-		return console.log('目录不存在');
-	}
-	//console.log(files);
+const resolvers = {
+  Query: {
+    messages() {
+      return messages;
+    },
+  },
+  Mutation: {
+    addMessage(root, { message }) {
+      let entry = JSON.stringify({ id: messages.length, message: message });
+      messages.push(entry);
+      pubsub.publish('newMessage', { entry: entry });
+      return messages;
+    },
+  },
+  Subscription: {
+    newMessage: {
+      resolve: (message) => {
+        return message.entry;
+      },
+      subscribe: () => pubsub.asyncIterator('newMessage'),
+    },
+  },
+};
 
-	let resource = {};
-	resource['effect'] = [];
+const app = express();
 
-	files.forEach((fileName) => {
-		if (fileName.indexOf('.zip') == -1) {
-			console.log(fileName);
-			let item = {}
-			const itemName = fileName.substr(0, fileName.indexOf('-'));
-			const itemThumbnailUrl = 'https://app.dev.glip.net/assets/mobile/media/banuba/effect/' + fileName + '.png';
-			const itemVersion  = fileName.substr(itemName.length + 1);
-			item['name'] = itemName;
-			item['thumbnail_url'] = itemThumbnailUrl;
-			item['remote_dir'] = 'mobile/media/banuba/effect';
-			item['local_dir'] = 'banuba/effect';
-			item['version'] = itemVersion;
-			item['file_format'] = '.zip';
-			resource['effect'].push(item);
-		}
+const PORT = 4000;
 
+const startServer = async () => {
+  const httpServer = createServer(app);
+  const schema = makeExecutableSchema({ typeDefs, resolvers });
+  const server = new ApolloServer({
+    schema,
+    plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
+    tracing: true,
+  });
 
-		// const zipFile = fileDir + '/' + fileName;
-		// const name = fileName.substr(0, fileName.lastIndexOf('.'));
-		// const extractDir = fileDir + '/' + name;
-		// let zip = new AdmZip(zipFile);
-		// zip.extractAllTo(extractDir, /*overwrite*/true);
+  const subscriptionServer = SubscriptionServer.create(
+    {
+      schema,
+      execute,
+      subscribe,
+    },
+    {
+      server: httpServer,
+      path: server.graphqlPath,
+    },
+  );
 
-		// const thumbanilName = extractDir + '/' + name + '.png';
-		// const prewName = extractDir + '/preview.png';
-		// const targetDir = '/Users/bryan.wu/niceice/service/frontend/files/files/';
-		// fs.rename(prewName, thumbanilName, (error) => {
-		// 	if (error) {
-		// 	  console.log(error);
-		// 	} else {
-		// 	  //console.log('ok');
-		// 	}
-		//       });
+  // Shut down in the case of interrupt and termination signals
+  // We expect to handle this more cleanly in the future. See (#5074)[https://github.com/apollographql/apollo-server/issues/5074] for reference.
+  ['SIGINT', 'SIGTERM'].forEach((signal) => {
+    process.on(signal, async () => {
+      subscriptionServer.close();
+      await server.stop();
+      console.log('Server closed');
+      process.exit(0);
+    });
+  });
 
-		// shellJs.cp('-f', thumbanilName, targetDir)
-	});
+  await server.start();
 
+  server.applyMiddleware({ app });
 
-	
-	const resourceJson = JSON.stringify(resource, null, 2);
-	fs.writeFileSync('resource.json', resourceJson);
-	shellJs.cp('-f', './resource.json', fileDir);
-	console.log(resourceJson);
+  httpServer.listen(PORT, () => {
+    console.log(`🚀 Server ready at http://localhost:${PORT}${server.graphqlPath}`);
+    console.log(`🚀 Subscriptions ready at ws://localhost:${PORT}${server.graphqlPath}`);
+  });
+};
 
-});
+startServer();

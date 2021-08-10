@@ -43,7 +43,7 @@ const AccountCollection = mongoose.model('account', {
   ]
 });
 
-async () => {
+async function main(){
   const id = 'ice';
   const queryResult = await AccountCollection.findById(id);
   if (queryResult == null) {
@@ -56,10 +56,12 @@ async () => {
         id: 'wzh' 
       }
     }
-  }).then(() => console.log(`add contact: ${contactId} has save`));
+  }).then(() => console.log(`add contact has save`));
 
   const accountResult = await AccountCollection.findById(id);
   if (accountResult == null) {
     throw `user does not exist <id:${id}>`;
   }
 }
+
+main();

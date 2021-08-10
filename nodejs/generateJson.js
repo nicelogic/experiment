@@ -6,7 +6,7 @@ let fs = require('fs')
 let AdmZip = require('adm-zip');
 let shellJs = require('shelljs');
 
-const fileDir = '/Users/bryan.wu/Downloads/buildbanubaresource/effect';
+const fileDir = '/Users/bryan.wu/Downloads/banuba-upgrade/json';
 
 fs.readdir(fileDir, function (err, files) {
 	if (err) {
@@ -63,7 +63,7 @@ fs.readdir(fileDir, function (err, files) {
 	fs.writeFileSync('resource.json', resourceJson);
 	shellJs.cp('-f', './resource.json', fileDir);
 	const niceFileDir = '/Users/bryan.wu/niceice/service/frontend/files/files';
-	const pubFileDir = '/Users/bryan.wu/work_studio/public-assets/src/default/develop/mobile/media/banuba/effect';
+	const pubFileDir = '/Users/bryan.wu/work_studio/public-assets/src/default/develop/common/media/banuba/effect';
 	shellJs.cp('-f', './resource.json', fileDir);
 	shellJs.cp('-f', './resource.json', niceFileDir);
 	shellJs.cp('-f', './resource.json', pubFileDir);

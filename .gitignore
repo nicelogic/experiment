@@ -1,7 +1,7 @@
 #build directory
 cpp/build
 cpp/boost/*/build
-*/node_modules/*
+**/node_modules/**
 
 # Prerequisites
 *.d
