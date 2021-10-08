@@ -1,4 +1,6 @@
+#include <algorithm>
 #include <chrono>
+#include <fstream>
 #include <functional>
 #include <iostream>
 #include <list>
@@ -10,40 +12,72 @@
 #include <thread>
 #include <typeinfo>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
-class VbgResource
-{
-public: 
-    string m_name;
-
-};
-
 int main()
 {
-    std::vector<VbgResource> vec1{{"ooo"}, {"hi"}, {"hei"}};
-    std::vector<VbgResource> vec2{{"hei"},{"hi"},  {"ooo"}};
-
-    sort(vec2.begin(), vec2.end(), [&vec1](const VbgResource& left, const VbgResource& right){
-        auto leftIter = std::find_if(vec1.begin(), vec1.end(), [left](const VbgResource& resource){ return resource.m_name == left.m_name;});
-        auto rightIter = std::find_if(vec1.begin(), vec1.end(), [right](const VbgResource& resource){ return resource.m_name == right.m_name;});
-        return leftIter < rightIter;
-    });
-
-    for(auto& ival : vec2)
+    ifstream ifs("log.txt");
+    if (!ifs.is_open())
     {
-        cout << ival.m_name << endl;
+        cerr << "fs error" << endl;
+        return 0;
     }
 
-    map<int, int> a{ {1, 2}};
-    a.erase(2);
-    auto b = find(a.begin(), a.end(), 1);
-    cout << a.size() << endl;
-    a.erase(1);
-    cout << a.size() << endl;
+    ostringstream oss;
+    oss << ifs.rdbuf();
 
+    set<string> createEncoders;
+    {
+        std::istringstream iss_test(oss.str());
+        string s(1000, '\0');
+        while (iss_test.getline(&s[0], 1000))
+        {
+            if (s.find("Create compression session") != std::string::npos)
+            {
+                s = s.substr(s.find_first_of(","));
+                s = s.substr(s.find_first_of("111"));
+                s = s.substr(s.find_first_of(":") + 2);
+                // cout << s.c_str() << "|" << endl;
+                createEncoders.insert(s);
+            }
+            s.clear();
+            s.resize(1000);
+        }
+        cout << "create encoders size: " << createEncoders.size() << endl;
+        for(auto s : createEncoders){
+            cout << s << endl;
+        }
+    }
 
+    set<string> releaseEncoders;
+    {
+        std::istringstream iss_test2(oss.str());
+        string s2(500, '\0');
+        while (iss_test2.getline(&s2[0], 500))
+        {
+            if (s2.find("Release compression session") != std::string::npos)
+            {
+                s2 = s2.substr(s2.find_first_of(","));
+                s2 = s2.substr(s2.find_first_of("222"));
+                s2 = s2.substr(s2.find_first_of(":") + 13);
+                releaseEncoders.insert(s2);
+            }
+            s2.clear();
+            s2.resize(1000);
+        }
+        cout << "release encoders size: " << releaseEncoders.size() << endl;
+        for(auto s : releaseEncoders){
+            cout << s << endl;
+        }
+    }
+
+    vector<string> diffs;
+    std::set_difference(createEncoders.begin(), createEncoders.end(), releaseEncoders.begin(), releaseEncoders.end(),
+                        std::back_inserter(diffs));
+    cout << diffs.size() << endl;
+    
+
+        ifs.close();
     return 0;
 }

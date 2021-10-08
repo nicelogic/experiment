@@ -1,236 +1,204 @@
-import 'package:flutter/material.dart';
+// import 'dart:async';
+// import 'dart:io';
 
-void main() {
-  runApp(BooksApp());
-}
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_storage/firebase_storage.dart';
+// import 'package:flutter/material.dart';
+// import 'package:image_picker/image_picker.dart';
+// import 'package:intl/intl.dart';
+// import 'package:dash_chat/dash_chat.dart';
 
-class Book {
-  final String title;
-  final String author;
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await Firebase.initializeApp();
+//   runApp(MyApp());
+// }
 
-  Book(this.title, this.author);
-}
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'Flutter Demo',
+//       theme: ThemeData(
+//         primarySwatch: Colors.purple,
+//       ),
+//       home: MyHomePage(),
+//     );
+//   }
+// }
 
-class BooksApp extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => _BooksAppState();
-}
+// class MyHomePage extends StatefulWidget {
+//   @override
+//   _MyHomePageState createState() => _MyHomePageState();
+// }
 
-class _BooksAppState extends State<BooksApp> {
-  BookRouterDelegate _routerDelegate = BookRouterDelegate();
-  BookRouteInformationParser _routeInformationParser =
-      BookRouteInformationParser();
+// class _MyHomePageState extends State<MyHomePage> {
+//   final GlobalKey<DashChatState> _chatViewKey = GlobalKey<DashChatState>();
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: 'Books App',
-      routerDelegate: _routerDelegate,
-      routeInformationParser: _routeInformationParser,
-    );
-  }
-}
+//   final ChatUser user = ChatUser(
+//     name: "Fayeed",
+//     uid: "123456789",
+//     avatar: "https://www.wrappixel.com/ampleadmin/assets/images/users/4.jpg",
+//   );
 
-class BookRouteInformationParser extends RouteInformationParser<BookRoutePath> {
-  @override
-  Future<BookRoutePath> parseRouteInformation(
-      RouteInformation routeInformation) async {
-    final uri = Uri.parse(routeInformation.location!);
+//   final ChatUser otherUser = ChatUser(
+//     name: "Mrfatty",
+//     uid: "25649654",
+//   );
 
-    if (uri.pathSegments.length >= 2) {
-      var remaining = uri.pathSegments[1];
-      return BookRoutePath.details(int.tryParse(remaining)!);
-    } else {
-      return BookRoutePath.home();
-    }
-  }
+//   List<ChatMessage> messages = <ChatMessage>[];
+//   var m = <ChatMessage>[];
 
-  @override
-  RouteInformation? restoreRouteInformation(BookRoutePath path) {
-    if (path.isHomePage) {
-      return RouteInformation(location: '/');
-    }
-    if (path.isDetailsPage) {
-      return RouteInformation(location: '/book/${path.id}');
-    }
-    return null;
-  }
-}
+//   var i = 0;
 
-class BookRouterDelegate extends RouterDelegate<BookRoutePath>
-    with ChangeNotifier, PopNavigatorRouterDelegateMixin<BookRoutePath> {
-  final GlobalKey<NavigatorState> navigatorKey;
+//   @override
+//   void initState() {
+//     super.initState();
+//   }
 
-  Book? _selectedBook;
+//   void systemMessage() {
+//     Timer(Duration(milliseconds: 300), () {
+//       if (i < 6) {
+//         setState(() {
+//           messages = [...messages, m[i]];
+//         });
+//         i++;
+//       }
+//       Timer(Duration(milliseconds: 300), () {
+//         _chatViewKey.currentState!.scrollController
+//           ..animateTo(
+//             _chatViewKey
+//                 .currentState!.scrollController.position.maxScrollExtent,
+//             curve: Curves.easeOut,
+//             duration: const Duration(milliseconds: 300),
+//           );
+//       });
+//     });
+//   }
 
-  List<Book> books = [
-    Book('Stranger in a Strange Land', 'Robert A. Heinlein'),
-    Book('Foundation', 'Isaac Asimov'),
-    Book('Fahrenheit 451', 'Ray Bradbury'),
-  ];
+//   void onSend(ChatMessage message) {
+//     print(message.toJson());
+//     // FirebaseFirestore.instance
+//     //     .collection('messages')
+//     //     .doc(DateTime.now().millisecondsSinceEpoch.toString())
+//     //     .set(message.toJson());
+//     /* setState(() {
+//       messages = [...messages, message];
+//       print(messages.length);
+//     });
 
-  BookRouterDelegate() : navigatorKey = GlobalKey<NavigatorState>();
+//     if (i == 0) {
+//       systemMessage();
+//       Timer(Duration(milliseconds: 600), () {
+//         systemMessage();
+//       });
+//     } else {
+//       systemMessage();
+//     } */
+//   }
 
-  BookRoutePath get currentConfiguration => _selectedBook == null
-      ? BookRoutePath.home()
-      : BookRoutePath.details(books.indexOf(_selectedBook!));
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//         appBar: AppBar(
+//           title: Text("Chat App"),
+//         ),
+//         body: DashChat(
+//           key: _chatViewKey,
+//           inverted: false,
+//           onSend: onSend,
+//           sendOnEnter: true,
+//           textInputAction: TextInputAction.send,
+//           user: user,
+//           inputDecoration:
+//               InputDecoration.collapsed(hintText: "Add message here..."),
+//           dateFormat: DateFormat('yyyy-MMM-dd'),
+//           timeFormat: DateFormat('HH:mm'),
+//           messages: messages,
+//           showUserAvatar: false,
+//           showAvatarForEveryMessage: false,
+//           scrollToBottom: false,
+//           onPressAvatar: (ChatUser user) {
+//             print("OnPressAvatar: ${user.name}");
+//           },
+//           onLongPressAvatar: (ChatUser user) {
+//             print("OnLongPressAvatar: ${user.name}");
+//           },
+//           inputMaxLines: 5,
+//           messageContainerPadding: EdgeInsets.only(left: 5.0, right: 5.0),
+//           alwaysShowSend: true,
+//           inputTextStyle: TextStyle(fontSize: 16.0),
+//           inputContainerStyle: BoxDecoration(
+//             border: Border.all(width: 0.0),
+//             color: Colors.white,
+//           ),
+//           onQuickReply: (Reply reply) {
+//             setState(() {
+//               messages.add(ChatMessage(
+//                   text: reply.value, createdAt: DateTime.now(), user: user));
 
-  @override
-  Widget build(BuildContext context) {
-    return Navigator(
-      key: navigatorKey,
-      transitionDelegate: NoAnimationTransitionDelegate(),
-      pages: [
-        MaterialPage(
-          key: ValueKey('BooksListPage'),
-          child: BooksListScreen(
-            books: books,
-            onTapped: _handleBookTapped,
-          ),
-        ),
-        if (_selectedBook != null) BookDetailsPage(book: _selectedBook!)
-      ],
-      onPopPage: (route, result) {
-        if (!route.didPop(result)) {
-          return false;
-        }
+//                     messages = [...messages];
+//             });
 
-        // Update the list of pages by setting _selectedBook to null
-        _selectedBook = null;
-        notifyListeners();
+//                   Timer(Duration(milliseconds: 300), () {
+//               _chatViewKey.currentState!.scrollController
+//                 ..animateTo(
+//                   _chatViewKey
+//                       .currentState!.scrollController.position.maxScrollExtent,
+//                   curve: Curves.easeOut,
+//                   duration: const Duration(milliseconds: 300),
+//                 );
 
-        return true;
-      },
-    );
-  }
+//                     if (i == 0) {
+//                 systemMessage();
+//                 Timer(Duration(milliseconds: 600), () {
+//                   systemMessage();
+//                 });
+//               } else {
+//                 systemMessage();
+//               }
+//                   });
+//                 },
+//           onLoadEarlier: () {
+//             print("laoding...");
+//           },
+//           shouldShowLoadEarlier: false,
+//           showTraillingBeforeSend: true,
+//           trailing: <Widget>[
+//             IconButton(
+//               icon: Icon(Icons.photo),
+//               onPressed: () async {
+//                 final picker = ImagePicker();
+//                 PickedFile? result = await picker.getImage(
+//                   source: ImageSource.gallery,
+//                   imageQuality: 80,
+//                   maxHeight: 400,
+//                   maxWidth: 400,
+//                 );
 
-  @override
-  Future<void> setNewRoutePath(BookRoutePath path) async {
-    if (path.isDetailsPage) {
-      _selectedBook = books[path.id!];
-    }
-  }
+//                       if (result != null) {
+//                   final Reference storageRef =
+//                       FirebaseStorage.instance.ref().child("chat_images");
 
-  void _handleBookTapped(Book book) {
-    _selectedBook = book;
-    notifyListeners();
-  }
-}
+//                         final taskSnapshot = await storageRef.putFile(
+//                     File(result.path),
+//                     SettableMetadata(
+//                       contentType: 'image/jpg',
+//                     ),
+//                   );
 
-class BookDetailsPage extends Page {
-  final Book? book;
+//                         String url = await taskSnapshot.ref.getDownloadURL();
 
-  BookDetailsPage({
-    this.book,
-  }) : super(key: ValueKey(book));
+//                         ChatMessage message =
+//                       ChatMessage(text: "", user: user, image: url);
 
-  Route createRoute(BuildContext context) {
-    return MaterialPageRoute(
-      settings: this,
-      builder: (BuildContext context) {
-        return BookDetailsScreen(book: book!);
-      },
-    );
-  }
-}
-
-class BookRoutePath {
-  final int? id;
-
-  BookRoutePath.home() : id = null;
-
-  BookRoutePath.details(this.id);
-
-  bool get isHomePage => id == null;
-
-  bool get isDetailsPage => id != null;
-}
-
-class BooksListScreen extends StatelessWidget {
-  final List<Book>? books;
-  final ValueChanged<Book>? onTapped;
-
-  BooksListScreen({
-    @required this.books,
-    @required this.onTapped,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: ListView(
-        children: [
-          for (var book in books!)
-            ListTile(
-              title: Text(book.title),
-              subtitle: Text(book.author),
-              onTap: () => onTapped?.call(book),
-            )
-        ],
-      ),
-    );
-  }
-}
-
-class BookDetailsScreen extends StatelessWidget {
-  final Book? book;
-
-  BookDetailsScreen({
-    @required this.book,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (book != null) ...[
-              Text(book!.title, style: Theme.of(context).textTheme.headline6),
-              Text(book!.author, style: Theme.of(context).textTheme.subtitle1),
-            ],
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class NoAnimationTransitionDelegate extends TransitionDelegate<void> {
-  @override
-  Iterable<RouteTransitionRecord> resolve({
-    List<RouteTransitionRecord> newPageRouteHistory = const [],
-    Map<RouteTransitionRecord?, RouteTransitionRecord>
-        locationToExitingPageRoute = const {},
-    Map<RouteTransitionRecord?, List<RouteTransitionRecord>>
-        pageRouteToPagelessRoutes = const {},
-  }) {
-    final results = <RouteTransitionRecord>[];
-
-    for (final pageRoute in newPageRouteHistory) {
-      if (pageRoute.isWaitingForEnteringDecision) {
-        pageRoute.markForAdd();
-      }
-      results.add(pageRoute);
-    }
-
-    for (final exitingPageRoute in locationToExitingPageRoute.values) {
-      if (exitingPageRoute.isWaitingForExitingDecision) {
-        exitingPageRoute.markForRemove();
-        final pagelessRoutes = pageRouteToPagelessRoutes[exitingPageRoute];
-        if (pagelessRoutes != null) {
-          for (final pagelessRoute in pagelessRoutes) {
-            pagelessRoute.markForRemove();
-          }
-        }
-      }
-
-      results.add(exitingPageRoute);
-    }
-    return results;
-  }
-}
+//                         // FirebaseFirestore.instance
+//                   //     .collection('messages')
+//                   //     .add(message.toJson());
+//                 }
+//                     },
+//             )
+//           ],
+//         ));
+//   }
+// }

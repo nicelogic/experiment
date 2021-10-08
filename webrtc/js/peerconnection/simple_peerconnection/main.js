@@ -61,8 +61,8 @@ async function start() {
   console.log('Requesting local stream');
   startButton.disabled = true;
   try {
-    const stream = await navigator.mediaDevices.getUserMedia({audio: true, video: true});
-    console.log('Received local stream');
+    const stream = await navigator.mediaDevices.getUserMedia({audio: true, video: false});
+    console.log(`Received local stream, track size: ${stream.getTracks().length}`);
     localVideo.srcObject = stream;
     localStream = stream;
     callButton.disabled = false;
